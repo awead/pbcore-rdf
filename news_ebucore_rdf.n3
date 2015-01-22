@@ -1,0 +1,192 @@
+@prefix EBULanguageUsageCode: <http://www.ebu.ch/metadata/ontologies/skos/EBULanguageUsageCode#> .
+@prefix EBUNMSCategoryCode: <http://www.ebu.ch/metadata/ontologies/skos/EBUNMSCategoryCode#> .
+@prefix EBUNMSClassCode: <http://www.ebu.ch/metadata/ontologies/skos/EBUNMSClassCode#> .
+@prefix EBUNMSDescription: <http://www.ebu.ch/metadata/ontologies/skos/EBUNMSDescription#> .
+@prefix EBUNMSGenreCode: <http://www.ebu.ch/metadata/ontologies/skos/EBUNMSGenreCode#> .
+@prefix EBUNMSRatingCode: <http://www.ebu.ch/metadata/ontologies/skos/EBUNMSRatingCode#> .
+@prefix EBUNMSSRVCodeOrigin: <http://www.ebu.ch/metadata/ontologies/skos/EBUNMSSRVCodeOrigin#> .
+@prefix EBUNMSSRVCodeSource: <http://www.ebu.ch/metadata/ontologies/skos/EBUNMSSRVCodeSource#> .
+@prefix EBUNMSStatusCode: <http://www.ebu.ch/metadata/ontologies/skos/EBUNMSStatusCode#> .
+@prefix EBUNMSTargetAudienceCode: <http://www.ebu.ch/metadata/ontologies/skos/EBUNMSTargetAudienceCode#> .
+@prefix EBUNMSWebcatCode: <http://www.ebu.ch/metadata/ontologies/skos/EBUNMSWebcatCode#> .
+@prefix EBUProviderCode: <http://www.ebu.ch/metadata/ontologies/skos/EBUProviderCode#> .
+@prefix EBURightsHolderCode: <http://www.ebu.ch/metadata/ontologies/skos/EBURightsHolderCode#> .
+@prefix EBUServicerCode: <http://www.ebu.ch/metadata/ontologies/skos/EBUServicerCode#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix default: <urn:ebu:metadata-schema:ebuCore_2012> .
+@prefix ebu: <http://ebu.org/nar-extensions/> .
+@prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsi: <http://www.w3.org/2001/XMLSchema-instance#> .
+@prefix xsi1: <http://www.w3.org/2001/XMLSchema-instance> .
+
+<EVN:tag:ebu.ch,2013:648952> a ebucore:NewsItem ;
+    ebucore:alternativeTitle "ITU World Triathlon"^^xsd:string ;
+    ebucore:dateCreated "2013-05-12T00:00:00+00:00"^^xsd:dateTime ;
+    ebucore:dateIssued "2012-12-20T13:25:40+00:00"^^xsd:dateTime ;
+    ebucore:dateModified "2013-05-11T09:40:44+00:00"^^xsd:dateTime ;
+    ebucore:description """
+         2013 ITU World Triathlon series. Men and women.
+         http:⁄⁄yokohama.triathlon.org⁄en⁄athletes_info⁄course⁄2013 Calendar:06⁄04⁄13 07⁄04⁄13 2013
+         ITU World Triathlon AucklandAuckland, NZL | Triathlon | World Triathlon Series19⁄04⁄13
+         20⁄04⁄13 2013 ITU World Triathlon San DiegoSan Diego, USA | Triathlon | World Triathlon
+         Series11⁄05⁄13 12⁄05⁄13 2013 ITU World Triathlon YokohamaYokohama, JPN | Triathlon | World
+         Triathlon Series01⁄06⁄13 02⁄06⁄13 2013 ITU World Triathlon MadridMadrid, ESP | Triathlon |
+         World Triathlon Series06⁄07⁄13 07⁄07⁄13 2013 ITU World Triathlon KitzbuehelKitzbuehel, AUT
+         | Triathlon | World Triathlon Series20⁄07⁄13 21⁄07⁄13 2013 ITU World Triathlon
+         HamburgHamburg, GER | Sprint Distance Triathlon | World Triathlon Series24⁄08⁄13 25⁄08⁄13
+         2013 ITU World Triathlon StockholmStockholm, SWE | Triathlon | World Triathlon
+         Series11⁄09⁄13 15⁄09⁄13 2013 ITU World Triathlon Grand Final LondonLondon, GBR | Triathlon
+         | World Triathlon Serieshttp:⁄⁄www.triathlon.org⁄ """^^xsd:string,
+        "NMSStatusCode:TRS"^^xsd:string ;
+    ebucore:hasCoverage <http://www.ebu.ch/metadata/ontologies/skos/city/ebu_CityCode#YOKOHAMA>,
+        <http://www.ebu.ch/metadata/ontologies/skos/country/ebu_CountryCode#JP> ;
+    ebucore:hasCreator <EBUNMSSRVCodeSource:SEIEC> ;
+    ebucore:hasDopesheet <EVN:/News/11May2013/Items/20130511-PNN-0932-648952/dopesheet> ;
+    ebucore:hasGenre <http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1.1> ;
+    ebucore:hasLanguage <http://www.ebu.ch/metadata/ontologies/skos/language/ebu_LanguageCode#:Natural> ;
+    ebucore:hasPart <EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part1_ID>,
+        <EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part2_ID>,
+        <EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part3_ID>,
+        <EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part4_ID>,
+        <EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part5_ID>,
+        <EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part6_ID>,
+        <EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part7_ID>,
+        <EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part8_ID> ;
+    ebucore:hasPublisher <EBUProviderCode:EBU> ;
+    ebucore:hasRelatedResource <EVN:EVN_648952_511A0932> ;
+    ebucore:hasRightsHolder <EBURightsHolderCode:EBU> ;
+    ebucore:hasSubject <EBUNMSCategoryCode:SPORT> ;
+    ebucore:identifier "tag:ebu.ch,2013:648952"^^xsd:anyURI ;
+    ebucore:isCoveredBy <EVN:UsageTerms> ;
+    ebucore:isMemberOf <EVN:/News/> ;
+    ebucore:title """ITU World
+         Triathlon"""^^xsd:string.
+
+<EBUNMSCategoryCode:SPORT> a ebucore:Subject .
+
+<EBUNMSSRVCodeSource:SEIEC> a ebucore:Organisation ;
+    ebucore:officeAddressCountry "" ;
+    ebucore:officeAddressLine "GNVE" ;
+    ebucore:officeAddressLocality "" ;
+    ebucore:officeEmailAddress "" ;
+    ebucore:officeHomepage "" ;
+    ebucore:officeTelephoneNumber "" ;
+    ebucore:organisationName "IEC in Sport"^^xsd:string .
+
+<EBUProviderCode:EBU> a ebucore:Organisation ;
+    ebucore:hasDepartment <EBUServicerCode:EUROVISION> ;
+    ebucore:officeAddressCountry "" ;
+    ebucore:officeAddressLine "",
+        "CH-1218",
+        "Eurovision Sports News Exchanges",
+        "L Ancienne Route 17 A" ;
+    ebucore:officeAddressLocality "Grand-Saconnex" ;
+    ebucore:officeEmailAddress "sportsnews@eurovision.net" ;
+    ebucore:officeHomepage "http://www.eurovision.net" ;
+    ebucore:officeTelephoneNumber "+41 22 717 2869" ;
+    ebucore:organisationName "European Broadcasting Union - EVN"^^xsd:string .
+
+<EBURightsHolderCode:EBU> a ebucore:Organisation ;
+    ebucore:organisationName "EBU"^^xsd:string .
+
+<EVN:/News/11May2013/Items/20130511-PNN-0932-648952/dopesheet> a ebucore:Dopesheet ;
+    ebucore:hasLocator <http://www.dummy.ch/News/11May2013/Items/20130511-PNN-0932-648952/index.html> .
+
+<EVN:EVN_20130511-PNN-0932-648952-09330819> a ebucore:Thumbnail ;
+    ebucore:hasLocator <http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09330819.jpeg> .
+
+<EVN:EVN_20130511-PNN-0932-648952-09341607> a ebucore:Thumbnail ;
+    ebucore:hasLocator <http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09341607.jpeg> .
+
+<EVN:EVN_20130511-PNN-0932-648952-09352207> a ebucore:Thumbnail ;
+    ebucore:hasLocator <http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09352207.jpeg> .
+
+<EVN:EVN_20130511-PNN-0932-648952-09355724> a ebucore:Thumbnail ;
+    ebucore:hasLocator <http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09355724.jpeg> .
+
+<EVN:EVN_20130511-PNN-0932-648952-09371923> a ebucore:Thumbnail ;
+    ebucore:hasLocator <http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09371923.jpeg> .
+
+<EVN:EVN_20130511-PNN-0932-648952-09373723> a ebucore:Thumbnail ;
+    ebucore:hasLocator <http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09373723.jpeg> .
+
+<EVN:EVN_20130511-PNN-0932-648952-09381600> a ebucore:Thumbnail ;
+    ebucore:hasLocator <http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09381600.jpeg> .
+
+<EVN:EVN_20130511-PNN-0932-648952-09390405> a ebucore:Thumbnail ;
+    ebucore:hasLocator <http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09390405.jpeg> .
+
+<EVN:EVN_648952_511A0932> a ebucore:MediaResource ;
+    ebucore:aspectRatio "16:9"^^xsd:string ;
+    ebucore:duration ""^^xsd:decimal ;
+    ebucore:frameRate ""^^xsd:decimal ;
+    ebucore:hasFormat <ninat:video> ;
+    ebucore:hasLocator <http://www.dummy.ch/News/destination/path/filename(648952)> .
+
+<EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part1_ID> a ebucore:Part ;
+    ebucore:hasRelatedMediaFragment <http://www.dummy.ch/News/destination/path/filename(648952)/t=34388.76,34456.24> ;
+    ebucore:hasRelatedPicture <EVN:EVN_20130511-PNN-0932-648952-09330819> ;
+    ebucore:identifier "EVN:EVN_648952_511A0932_Part1_ID"^^xsd:anyURI ;
+    ebucore:name ""^^xsd:string .
+
+<EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part2_ID> a ebucore:Part ;
+    ebucore:hasRelatedMediaFragment <http://www.dummy.ch/News/destination/path/filename(648952)/t=34456.28,34522.24> ;
+    ebucore:hasRelatedPicture <EVN:EVN_20130511-PNN-0932-648952-09341607> ;
+    ebucore:identifier "EVN:EVN_648952_511A0932_Part2_ID"^^xsd:anyURI ;
+    ebucore:name ""^^xsd:string .
+
+<EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part3_ID> a ebucore:Part ;
+    ebucore:hasRelatedMediaFragment <http://www.dummy.ch/News/destination/path/filename(648952)/t=34522.28,34557.92> ;
+    ebucore:hasRelatedPicture <EVN:EVN_20130511-PNN-0932-648952-09352207> ;
+    ebucore:identifier "EVN:EVN_648952_511A0932_Part3_ID"^^xsd:anyURI ;
+    ebucore:name ""^^xsd:string .
+
+<EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part4_ID> a ebucore:Part ;
+    ebucore:hasRelatedMediaFragment <http://www.dummy.ch/News/destination/path/filename(648952)/t=34557.96,34639.88> ;
+    ebucore:hasRelatedPicture <EVN:EVN_20130511-PNN-0932-648952-09355724> ;
+    ebucore:identifier "EVN:EVN_648952_511A0932_Part4_ID"^^xsd:anyURI ;
+    ebucore:name ""^^xsd:string .
+
+<EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part5_ID> a ebucore:Part ;
+    ebucore:hasRelatedMediaFragment <http://www.dummy.ch/News/destination/path/filename(648952)/t=34639.92,34657.88> ;
+    ebucore:hasRelatedPicture <EVN:EVN_20130511-PNN-0932-648952-09371923> ;
+    ebucore:identifier "EVN:EVN_648952_511A0932_Part5_ID"^^xsd:anyURI ;
+    ebucore:name ""^^xsd:string .
+
+<EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part6_ID> a ebucore:Part ;
+    ebucore:hasRelatedMediaFragment <http://www.dummy.ch/News/destination/path/filename(648952)/t=34657.92,34695.96> ;
+    ebucore:hasRelatedPicture <EVN:EVN_20130511-PNN-0932-648952-09373723> ;
+    ebucore:identifier "EVN:EVN_648952_511A0932_Part6_ID"^^xsd:anyURI ;
+    ebucore:name ""^^xsd:string .
+
+<EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part7_ID> a ebucore:Part ;
+    ebucore:hasRelatedMediaFragment <http://www.dummy.ch/News/destination/path/filename(648952)/t=34696,34744.16> ;
+    ebucore:hasRelatedPicture <EVN:EVN_20130511-PNN-0932-648952-09381600> ;
+    ebucore:identifier "EVN:EVN_648952_511A0932_Part7_ID"^^xsd:anyURI ;
+    ebucore:name ""^^xsd:string .
+
+<EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part8_ID> a ebucore:Part ;
+    ebucore:hasRelatedMediaFragment <http://www.dummy.ch/News/destination/path/filename(648952)/t=34744.2,> ;
+    ebucore:hasRelatedPicture <EVN:EVN_20130511-PNN-0932-648952-09390405> ;
+    ebucore:identifier "EVN:EVN_648952_511A0932_Part8_ID"^^xsd:anyURI ;
+    ebucore:name ""^^xsd:string .
+
+<EVN:UsageTerms> a ebucore:UsageRights ;
+    ebucore:rightsExpression """ IEC rights: Access only for other Eurovision Members and EVS
+         Sub-Licensees worldwide , NO ACCESS pan-European broadcasters such as Eurosport, Euronews
+         and Deutsche Welle. For use solely within the European Broadcasting Union territory + max.
+         use 3 min. Strictly no use after 48 hrs, no use after December 31 same year. For use only
+         in news and sport news scheduled bulletins. No anthology. No mobile use. No use on the
+         Internet, except when footage is part of a regularly scheduled bulletin, which is being
+         streamed onto the broadcaster's website without having been modified in any way.For other
+         rights please contact : Casie Keynes (casie.keynes@iec.se) Mobile + 44 7921 334 992
+      """.
+
+<ninat:video> a ebucore:MimeType .
+

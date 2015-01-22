@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:EBUNMSSRVCodeSource="http://www.ebu.ch/metadata/ontologies/skos/EBUNMSSRVCodeSource#"
+   xmlns:EBUNMSSRVCodeOrigin="http://www.ebu.ch/metadata/ontologies/skos/EBUNMSSRVCodeOrigin#"
+   xmlns:EBUNMSClassCode="http://www.ebu.ch/metadata/ontologies/skos/EBUNMSClassCode#"
+   xmlns:EBUNMSCategoryCode="http://www.ebu.ch/metadata/ontologies/skos/EBUNMSCategoryCode#"
+   xmlns:EBUNMSWebcatCode="http://www.ebu.ch/metadata/ontologies/skos/EBUNMSWebcatCode#"
+   xmlns:EBUNMSStatusCode="http://www.ebu.ch/metadata/ontologies/skos/EBUNMSStatusCode#"
+   xmlns:EBUNMSGenreCode="http://www.ebu.ch/metadata/ontologies/skos/EBUNMSGenreCode#"
+   xmlns:EBUNMSTargetAudienceCode="http://www.ebu.ch/metadata/ontologies/skos/EBUNMSTargetAudienceCode#"
+   xmlns:EBUNMSRatingCode="http://www.ebu.ch/metadata/ontologies/skos/EBUNMSRatingCode#"
+   xmlns:EBUNMSDescription="http://www.ebu.ch/metadata/ontologies/skos/EBUNMSDescription#"
+   xmlns:EBUServicerCode="http://www.ebu.ch/metadata/ontologies/skos/EBUServicerCode#"
+   xmlns:EBURightsHolderCode="http://www.ebu.ch/metadata/ontologies/skos/EBURightsHolderCode#"
+   xmlns:EBUProviderCode="http://www.ebu.ch/metadata/ontologies/skos/EBUProviderCode#"
+   xmlns:EBULanguageUsageCode="http://www.ebu.ch/metadata/ontologies/skos/EBULanguageUsageCode#"
+   xmlns:ebu="http://ebu.org/nar-extensions/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:default="urn:ebu:metadata-schema:ebuCore_2012"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ebucore:NewsItem rdf:about="EVN:tag:ebu.ch,2013:648952">
+      <ebucore:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+         >tag:ebu.ch,2013:648952</ebucore:identifier>
+      <ebucore:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">ITU World
+         Triathlon</ebucore:title>
+      <ebucore:alternativeTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"
+         >ITU World Triathlon</ebucore:alternativeTitle>
+      <ebucore:hasCreator rdf:resource="EBUNMSSRVCodeSource:SEIEC"/>
+      <ebucore:hasSubject rdf:resource="EBUNMSCategoryCode:SPORT"/>
+      <ebucore:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"
+         >NMSStatusCode:TRS</ebucore:description>
+      <ebucore:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">
+         2013 ITU World Triathlon series. Men and women.
+         http:⁄⁄yokohama.triathlon.org⁄en⁄athletes_info⁄course⁄2013 Calendar:06⁄04⁄13 07⁄04⁄13 2013
+         ITU World Triathlon AucklandAuckland, NZL | Triathlon | World Triathlon Series19⁄04⁄13
+         20⁄04⁄13 2013 ITU World Triathlon San DiegoSan Diego, USA | Triathlon | World Triathlon
+         Series11⁄05⁄13 12⁄05⁄13 2013 ITU World Triathlon YokohamaYokohama, JPN | Triathlon | World
+         Triathlon Series01⁄06⁄13 02⁄06⁄13 2013 ITU World Triathlon MadridMadrid, ESP | Triathlon |
+         World Triathlon Series06⁄07⁄13 07⁄07⁄13 2013 ITU World Triathlon KitzbuehelKitzbuehel, AUT
+         | Triathlon | World Triathlon Series20⁄07⁄13 21⁄07⁄13 2013 ITU World Triathlon
+         HamburgHamburg, GER | Sprint Distance Triathlon | World Triathlon Series24⁄08⁄13 25⁄08⁄13
+         2013 ITU World Triathlon StockholmStockholm, SWE | Triathlon | World Triathlon
+         Series11⁄09⁄13 15⁄09⁄13 2013 ITU World Triathlon Grand Final LondonLondon, GBR | Triathlon
+         | World Triathlon Serieshttp:⁄⁄www.triathlon.org⁄ </ebucore:description>
+      <ebucore:hasPublisher rdf:resource="EBUProviderCode:EBU"/>
+      <ebucore:hasGenre
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/ebu_ContentGenreCS#_3.1.1"/>
+      <ebucore:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+         >2013-05-12T00:00:00Z</ebucore:dateCreated>
+      <ebucore:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+         >2013-05-11T09:40:44Z</ebucore:dateModified>
+      <ebucore:dateIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+         >2012-12-20T13:25:40Z</ebucore:dateIssued>
+      <ebucore:hasDopesheet
+         rdf:resource="EVN:/News/11May2013/Items/20130511-PNN-0932-648952/dopesheet"/>
+      <ebucore:hasRelatedResource rdf:resource="EVN:EVN_648952_511A0932"/>
+      <ebucore:hasLanguage
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/language/ebu_LanguageCode#:Natural"/>
+      <ebucore:hasCoverage
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/city/ebu_CityCode#YOKOHAMA"/>
+      <ebucore:hasCoverage
+         rdf:resource="http://www.ebu.ch/metadata/ontologies/skos/country/ebu_CountryCode#JP"/>
+      <ebucore:isCoveredBy rdf:resource="EVN:UsageTerms"/>
+      <ebucore:hasRightsHolder rdf:resource="EBURightsHolderCode:EBU"/>
+      <ebucore:isMemberOf rdf:resource="EVN:/News/"/>
+      <ebucore:hasPart rdf:resource="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part1_ID"/>
+      <ebucore:hasPart rdf:resource="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part2_ID"/>
+      <ebucore:hasPart rdf:resource="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part3_ID"/>
+      <ebucore:hasPart rdf:resource="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part4_ID"/>
+      <ebucore:hasPart rdf:resource="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part5_ID"/>
+      <ebucore:hasPart rdf:resource="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part6_ID"/>
+      <ebucore:hasPart rdf:resource="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part7_ID"/>
+      <ebucore:hasPart rdf:resource="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part8_ID"/>
+   </ebucore:NewsItem>
+   <ebucore:Dopesheet rdf:about="EVN:/News/11May2013/Items/20130511-PNN-0932-648952/dopesheet">
+      <ebucore:hasLocator
+         rdf:resource="http://www.dummy.ch/News/11May2013/Items/20130511-PNN-0932-648952/index.html"
+      />
+   </ebucore:Dopesheet>
+   <ebucore:MediaResource rdf:about="EVN:EVN_648952_511A0932">
+      <ebucore:aspectRatio rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+         >16:9</ebucore:aspectRatio>
+      <ebucore:hasFormat>
+         <ebucore:MimeType rdf:about="ninat:video"/>
+      </ebucore:hasFormat>
+      <ebucore:frameRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"/>
+      <ebucore:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"/>
+      <ebucore:hasLocator rdf:resource="http://www.dummy.ch/News/destination/path/filename(648952)"
+      />
+   </ebucore:MediaResource>
+   <ebucore:Organisation rdf:about="EBUNMSSRVCodeSource:SEIEC">
+      <ebucore:organisationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"
+         >IEC in Sport</ebucore:organisationName>
+      <ebucore:officeAddressLine>GNVE</ebucore:officeAddressLine>
+      <ebucore:officeAddressLocality/>
+      <ebucore:officeAddressCountry/>
+      <ebucore:officeEmailAddress/>
+      <ebucore:officeHomepage/>
+      <ebucore:officeTelephoneNumber/>
+   </ebucore:Organisation>
+   <ebucore:Organisation rdf:about="EBUProviderCode:EBU">
+      <ebucore:organisationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"
+         >European Broadcasting Union - EVN</ebucore:organisationName>
+      <ebucore:hasDepartment rdf:resource="EBUServicerCode:EUROVISION"/>
+      <ebucore:officeAddressLine/>
+      <ebucore:officeAddressLine>Eurovision Sports News Exchanges</ebucore:officeAddressLine>
+      <ebucore:officeAddressLine>L Ancienne Route 17 A</ebucore:officeAddressLine>
+      <ebucore:officeAddressLine>CH-1218</ebucore:officeAddressLine>
+      <ebucore:officeAddressLocality>Grand-Saconnex</ebucore:officeAddressLocality>
+      <ebucore:officeAddressCountry/>
+      <ebucore:officeEmailAddress>sportsnews@eurovision.net</ebucore:officeEmailAddress>
+      <ebucore:officeHomepage>http://www.eurovision.net</ebucore:officeHomepage>
+      <ebucore:officeTelephoneNumber>+41 22 717 2869</ebucore:officeTelephoneNumber>
+   </ebucore:Organisation>
+   <ebucore:UsageRights rdf:about="EVN:UsageTerms">
+      <ebucore:rightsExpression> IEC rights: Access only for other Eurovision Members and EVS
+         Sub-Licensees worldwide , NO ACCESS pan-European broadcasters such as Eurosport, Euronews
+         and Deutsche Welle. For use solely within the European Broadcasting Union territory + max.
+         use 3 min. Strictly no use after 48 hrs, no use after December 31 same year. For use only
+         in news and sport news scheduled bulletins. No anthology. No mobile use. No use on the
+         Internet, except when footage is part of a regularly scheduled bulletin, which is being
+         streamed onto the broadcaster's website without having been modified in any way.For other
+         rights please contact : Casie Keynes (casie.keynes@iec.se) Mobile + 44 7921 334 992
+      </ebucore:rightsExpression>
+   </ebucore:UsageRights>
+   <ebucore:Subject rdf:about="EBUNMSCategoryCode:SPORT"/>
+   <ebucore:Organisation rdf:about="EBURightsHolderCode:EBU">
+      <ebucore:organisationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en"
+         >EBU</ebucore:organisationName>
+   </ebucore:Organisation>
+   <ebucore:Part rdf:about="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part1_ID">
+      <ebucore:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+      <ebucore:hasRelatedMediaFragment
+         rdf:resource="http://www.dummy.ch/News/destination/path/filename(648952)/t=34388.76,34456.24"/>
+      <ebucore:hasRelatedPicture rdf:resource="EVN:EVN_20130511-PNN-0932-648952-09330819"/>
+      <ebucore:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+         >EVN:EVN_648952_511A0932_Part1_ID</ebucore:identifier>
+   </ebucore:Part>
+   <ebucore:Thumbnail rdf:about="EVN:EVN_20130511-PNN-0932-648952-09330819">
+      <ebucore:hasLocator
+         rdf:resource="http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09330819.jpeg"
+      />
+   </ebucore:Thumbnail>
+   <ebucore:Part rdf:about="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part2_ID">
+      <ebucore:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+      <ebucore:hasRelatedMediaFragment
+         rdf:resource="http://www.dummy.ch/News/destination/path/filename(648952)/t=34456.28,34522.24"/>
+      <ebucore:hasRelatedPicture rdf:resource="EVN:EVN_20130511-PNN-0932-648952-09341607"/>
+      <ebucore:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+         >EVN:EVN_648952_511A0932_Part2_ID</ebucore:identifier>
+   </ebucore:Part>
+   <ebucore:Thumbnail rdf:about="EVN:EVN_20130511-PNN-0932-648952-09341607">
+      <ebucore:hasLocator
+         rdf:resource="http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09341607.jpeg"
+      />
+   </ebucore:Thumbnail>
+   <ebucore:Part rdf:about="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part3_ID">
+      <ebucore:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+      <ebucore:hasRelatedMediaFragment
+         rdf:resource="http://www.dummy.ch/News/destination/path/filename(648952)/t=34522.28,34557.92"/>
+      <ebucore:hasRelatedPicture rdf:resource="EVN:EVN_20130511-PNN-0932-648952-09352207"/>
+      <ebucore:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+         >EVN:EVN_648952_511A0932_Part3_ID</ebucore:identifier>
+   </ebucore:Part>
+   <ebucore:Thumbnail rdf:about="EVN:EVN_20130511-PNN-0932-648952-09352207">
+      <ebucore:hasLocator
+         rdf:resource="http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09352207.jpeg"
+      />
+   </ebucore:Thumbnail>
+   <ebucore:Part rdf:about="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part4_ID">
+      <ebucore:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+      <ebucore:hasRelatedMediaFragment
+         rdf:resource="http://www.dummy.ch/News/destination/path/filename(648952)/t=34557.96,34639.88"/>
+      <ebucore:hasRelatedPicture rdf:resource="EVN:EVN_20130511-PNN-0932-648952-09355724"/>
+      <ebucore:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+         >EVN:EVN_648952_511A0932_Part4_ID</ebucore:identifier>
+   </ebucore:Part>
+   <ebucore:Thumbnail rdf:about="EVN:EVN_20130511-PNN-0932-648952-09355724">
+      <ebucore:hasLocator
+         rdf:resource="http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09355724.jpeg"
+      />
+   </ebucore:Thumbnail>
+   <ebucore:Part rdf:about="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part5_ID">
+      <ebucore:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+      <ebucore:hasRelatedMediaFragment
+         rdf:resource="http://www.dummy.ch/News/destination/path/filename(648952)/t=34639.92,34657.88"/>
+      <ebucore:hasRelatedPicture rdf:resource="EVN:EVN_20130511-PNN-0932-648952-09371923"/>
+      <ebucore:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+         >EVN:EVN_648952_511A0932_Part5_ID</ebucore:identifier>
+   </ebucore:Part>
+   <ebucore:Thumbnail rdf:about="EVN:EVN_20130511-PNN-0932-648952-09371923">
+      <ebucore:hasLocator
+         rdf:resource="http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09371923.jpeg"
+      />
+   </ebucore:Thumbnail>
+   <ebucore:Part rdf:about="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part6_ID">
+      <ebucore:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+      <ebucore:hasRelatedMediaFragment
+         rdf:resource="http://www.dummy.ch/News/destination/path/filename(648952)/t=34657.92,34695.96"/>
+      <ebucore:hasRelatedPicture rdf:resource="EVN:EVN_20130511-PNN-0932-648952-09373723"/>
+      <ebucore:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+         >EVN:EVN_648952_511A0932_Part6_ID</ebucore:identifier>
+   </ebucore:Part>
+   <ebucore:Thumbnail rdf:about="EVN:EVN_20130511-PNN-0932-648952-09373723">
+      <ebucore:hasLocator
+         rdf:resource="http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09373723.jpeg"
+      />
+   </ebucore:Thumbnail>
+   <ebucore:Part rdf:about="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part7_ID">
+      <ebucore:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+      <ebucore:hasRelatedMediaFragment
+         rdf:resource="http://www.dummy.ch/News/destination/path/filename(648952)/t=34696,34744.16"/>
+      <ebucore:hasRelatedPicture rdf:resource="EVN:EVN_20130511-PNN-0932-648952-09381600"/>
+      <ebucore:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+         >EVN:EVN_648952_511A0932_Part7_ID</ebucore:identifier>
+   </ebucore:Part>
+   <ebucore:Thumbnail rdf:about="EVN:EVN_20130511-PNN-0932-648952-09381600">
+      <ebucore:hasLocator
+         rdf:resource="http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09381600.jpeg"
+      />
+   </ebucore:Thumbnail>
+   <ebucore:Part rdf:about="EVN:EVN_648952_511A0932#EVN_648952_511A0932_Part8_ID">
+      <ebucore:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"/>
+      <ebucore:hasRelatedMediaFragment
+         rdf:resource="http://www.dummy.ch/News/destination/path/filename(648952)/t=34744.2,"/>
+      <ebucore:hasRelatedPicture rdf:resource="EVN:EVN_20130511-PNN-0932-648952-09390405"/>
+      <ebucore:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+         >EVN:EVN_648952_511A0932_Part8_ID</ebucore:identifier>
+   </ebucore:Part>
+   <ebucore:Thumbnail rdf:about="EVN:EVN_20130511-PNN-0932-648952-09390405">
+      <ebucore:hasLocator
+         rdf:resource="http://www.dummy.ch/News/11May2013/Keyframes/20130511-PNN-0932-648952//20130511-PNN-0932-648952-09390405.jpeg"
+      />
+   </ebucore:Thumbnail>
+</rdf:RDF>
